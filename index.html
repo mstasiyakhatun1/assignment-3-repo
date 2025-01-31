@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment-3</title>
+  <!-- sora google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!-- font awesome icon cdn -->
+  <script src="https://kit.fontawesome.com/d6acf0b686.js" crossorigin="anonymous"></script>
+  <!-- daisy ui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .sora-font {
+      font-family: "Sora", serif;
+    }
+  </style>
+</head>
+
+<body class="sora-font">
+  <header class="bg-[#EFEBE3] mx-auto">
+    <!-- navbar -->
+    <nav class="pt-3  md:max-w-7xl mx-auto">
+      <div class="flex justify-between">
+        <!-- nature img -->
+        <div>
+          <img class="hidden lg:block" src="assets/logo-header.png" alt="">
+          <img class="block lg:hidden " src="assets/Group.png" alt="">
+        </div>
+        <div>
+          <ul class="hidden md:flex gap-8">
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+          <!-- button div -->
+            <div class="hidden md:flex gap-6">
+              <i class="fa-solid fa-magnifying-glass text-black"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6 text-black inline">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+             <div class="flex gap-3">
+              <div>
+                <button class="outline outline-[#179800] px-5 py-1.5 rounded-lg ">Login</button>
+              </div>
+              <div>
+                <button class="bg-[#179800] text-white px-4 py-2 rounded-lg">Register</button>
+              </div>
+             </div>
+            </div>
+            <div class="md:hidden">
+               <img class="mx-auto" src="assets/bars-3.png" alt="">
+            </div>
+          </div>
+    </nav>
+    <!-- banner section-->
+     <h1 class="font-semibold text-5xl text-center mt-8 animate-pulse">Freshness <span class="text-green-500">You Can <br>
+      Count</span> On, Prices You’ll Love!</h1>
+      <p class="text-center mt-8 text-[#111111]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
+      <div>
+        <img class="mx-auto w-7/12 mt-8" src="assets/hero-vegetables.png" alt="">
+      </div>  
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
